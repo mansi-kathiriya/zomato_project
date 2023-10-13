@@ -16,7 +16,7 @@ const getCountryList = async (filter, options) => {
 
 /** Get Country by name */
 const getCountryByName = async (name) => {
-    return Product.findOne({ name })
+    return Country.findOne({ name })
 };
 
 /** Get Country deatils by id */
