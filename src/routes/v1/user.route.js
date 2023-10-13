@@ -22,7 +22,6 @@ router.get(
     userController.getAllUser
 );
 
-
 /** Create user */
 router.post(
     "/create-user",
