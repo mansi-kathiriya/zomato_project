@@ -9,3 +9,4 @@ module.exports.imageService = require("./image.service");
 module.exports.categoryService = require("./category.service");
 module.exports.itemService = require("./item.service");
 module.exports.menuitemService = require("./menuitem.service");
+module.exports.reviewService = require("./review.service");

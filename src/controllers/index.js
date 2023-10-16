@@ -9,3 +9,4 @@ module.exports.imageController = require("./image.controller");
 module.exports.categoryController = require("./category.controller");
 module.exports.itemController = require("./item.controller");
 module.exports.menuitemController = require("./menuitem.controller");
+module.exports.reviewController = require("./review.controller");
