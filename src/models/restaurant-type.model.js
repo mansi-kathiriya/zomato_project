@@ -21,6 +21,6 @@ const restaurant_typeSchema = new mongoose.Schema(
     }
 );
 
-const Restaurant_type = mongoose.model("restaurant_type", restaurant_typeSchema);
+const Restaurant_type = mongoose.model("restaurant type", restaurant_typeSchema);
 
 module.exports = Restaurant_type;
