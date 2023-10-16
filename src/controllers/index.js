@@ -8,3 +8,4 @@ module.exports.opening_hoursController = require("./opening-hours.controller");
 module.exports.imageController = require("./image.controller");
 module.exports.categoryController = require("./category.controller");
 module.exports.itemController = require("./item.controller");
+module.exports.menuitemController = require("./menuitem.controller");

@@ -8,3 +8,4 @@ module.exports.opening_hoursValidation = require("./opening-hours.validation");
 module.exports.imageValidation = require("./image.validation");
 module.exports.categoryValidation = require("./category.validation");
 module.exports.itemValidation = require("./item.validation");
+module.exports.menuitemValidation = require("./menuitem.validation");

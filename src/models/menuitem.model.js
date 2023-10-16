@@ -1,24 +1,24 @@
 const mongoose = require("mongoose");
 
-const itemSchema = new mongoose.Schema(
+const menuitemSchema = new mongoose.Schema(
     {
+        item: {
+            type: mongoose.Types.ObjectId,
+            ref: "item",
+        },
         category: {
             type: mongoose.Types.ObjectId,
             ref: "category",
         },
-        item_name: {
+        menuitem_name: {
             type: String,
             trim: true,
         },
-        item_desc: {
+        menuitem_desc: {
             type: String,
             trim: true,
         },
         price: {
-            type: Number,
-            trim: true,
-        },
-        quantity: {
             type: Number,
             trim: true,
         },
@@ -33,6 +33,6 @@ const itemSchema = new mongoose.Schema(
     }
 );
 
-const Item = mongoose.model("item", itemSchema);
+const Menuitem = mongoose.model("menuitem", menuitemSchema);
 
-module.exports = Item;
+module.exports = Menuitem;
