@@ -10,3 +10,4 @@ module.exports.Category = require("./category.model");
 module.exports.Item = require("./item.model");
 module.exports.Menuitem = require("./menuitem.model");
 module.exports.Review = require("./review.model");
+module.exports.Order = require("./order.model");
