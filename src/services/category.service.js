@@ -15,8 +15,8 @@ const getCategoryList = async (filter, options) => {
 };
 
 /** Get Category by name */
-const getCategoryByName = async (name) => {
-    return Category.findOne({ name })
+const getCategoryByName = async (category_name) => {
+    return Category.findOne({ category_name })
 };
 
 /** Get Category deatils by id */

@@ -15,8 +15,8 @@ const getRestaurant_typeList = async (filter, options) => {
 };
 
 /** Get Restaurant type by name */
-const getRestaurant_typeByName = async (name) => {
-    return Restaurant_type.findOne({ name })
+const getRestaurant_typeByName = async (type) => {
+    return Restaurant_type.findOne({ type })
 };
 
 /** Get Restaurant type deatils by id */

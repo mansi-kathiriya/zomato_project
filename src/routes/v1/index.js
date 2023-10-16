@@ -8,6 +8,7 @@ const restaurant_typeRoute = require("./restaurant-type.route");
 const opening_hoursRoute = require("./opening-hours.route");
 const imageRoute = require("./image.route");
 const categoryRoute = require("./category.route");
+const itemRoute = require("./item.route");
 
 const router = express.Router();
 
@@ -20,5 +21,6 @@ router.use("/restaurant-type", restaurant_typeRoute);
 router.use("/opening-hours", opening_hoursRoute);
 router.use("/image", imageRoute);
 router.use("/category", categoryRoute);
+router.use("/item", itemRoute);
 
 module.exports = router;

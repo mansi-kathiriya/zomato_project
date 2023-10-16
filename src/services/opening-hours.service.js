@@ -14,11 +14,6 @@ const getOpening_hoursList = async (filter, options) => {
     return Opening_hours.find().populate("restaurant");
 };
 
-/** Get Opening_hours by name */
-const getOpening_hoursByName = async (name) => {
-    return Opening_hours.findOne({ name })
-};
-
 /** Get Opening_hours deatils by id */
 const getOpening_hoursById = async (opening_hoursId) => {
     return Opening_hours.findById(opening_hoursId);
@@ -37,7 +32,6 @@ const deleteOpening_hours = async (opening_hoursId) => {
 module.exports = {
     createOpening_hours,
     getOpening_hoursList,
-    getOpening_hoursByName,
     getOpening_hoursById,
     updateDetails,
     deleteOpening_hours,

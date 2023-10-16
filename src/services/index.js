@@ -7,3 +7,4 @@ module.exports.restaurant_typeService = require("./restaurant-type.service");
 module.exports.opening_hoursService = require("./opening-hours.service");
 module.exports.imageService = require("./image.service");
 module.exports.categoryService = require("./category.service");
+module.exports.itemService = require("./item.service");

@@ -7,3 +7,4 @@ module.exports.Restaurant_type = require("./restaurant-type.model");
 module.exports.Opening_hours = require("./opening-hours.model");
 module.exports.Image = require("./image.model");
 module.exports.Category = require("./category.model");
+module.exports.Item = require("./item.model");

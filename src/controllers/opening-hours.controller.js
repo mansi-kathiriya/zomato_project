@@ -5,11 +5,6 @@ const createOpening_hours = async (req, res) => {
     try {
         const reqBody = req.body;
 
-        const opening_hoursExists = await opening_hoursService.getOpening_hoursByName(reqBody);
-        if (opening_hoursExists) {
-            throw new Error("please add other Opening_hours this Opening_hours already created.");
-        }
-
         const opening_hours = await opening_hoursService.createOpening_hours(reqBody);
 
         res.status(200).json({

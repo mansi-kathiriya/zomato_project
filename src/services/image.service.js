@@ -15,8 +15,8 @@ const getImageList = async (filter, options) => {
 };
 
 /** Get Image by name */
-const getImageByName = async (name) => {
-    return Image.findOne({ name })
+const getImageByName = async (image_name) => {
+    return Image.findOne({ image_name })
 };
 
 /** Get Image deatils by id */
