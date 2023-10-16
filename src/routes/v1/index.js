@@ -1,5 +1,6 @@
 const express = require("express");
 const userRoute = require("./user.route");
+const ownerRoute = require("./owner.route");
 const countryRoute = require("./country.route");
 const statRoute = require("./stat.route");
 const cityRoute = require("./city.route");
@@ -17,6 +18,7 @@ const paymentRoute = require("./payment.route");
 const router = express.Router();
 
 router.use("/user", userRoute);
+router.use("/owner", ownerRoute);
 router.use("/country", countryRoute);
 router.use("/stat", statRoute);
 router.use("/city", cityRoute);
