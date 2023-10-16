@@ -2,13 +2,13 @@ const mongoose = require("mongoose");
 
 const statSchema = new mongoose.Schema(
     {
-        name: {
-            type: String,
-            trim: true,
-        },
         country: {
             type: mongoose.Types.ObjectId,
             ref: "country",
+        },
+        name: {
+            type: String,
+            trim: true,
         },
         is_active: {
             type: Boolean,

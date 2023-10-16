@@ -1,3 +1,4 @@
-module.exports.userController = require("./user.cantroller");
-module.exports.countryController = require("./country.cantroller");
-module.exports.statController = require("./stat.cantroller");
+module.exports.userController = require("./user.controller");
+module.exports.countryController = require("./country.controller");
+module.exports.statController = require("./stat.controller");
+module.exports.cityController = require("./city.controller");
