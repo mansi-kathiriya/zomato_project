@@ -1,6 +1,6 @@
 const Joi = require("joi");
 
-// create Image
+/** create Image */
 const createImage = {
     body: Joi.object().keys({
         image: Joi.string().allow(""),

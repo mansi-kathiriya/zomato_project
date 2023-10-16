@@ -10,6 +10,7 @@ const imageRoute = require("./image.route");
 const categoryRoute = require("./category.route");
 const itemRoute = require("./item.route");
 const orderRoute = require("./order.route");
+const orderitemRoute = require("./orderitem.route");
 
 const router = express.Router();
 
@@ -24,5 +25,6 @@ router.use("/image", imageRoute);
 router.use("/category", categoryRoute);
 router.use("/item", itemRoute);
 router.use("/order", orderRoute);
+router.use("/orderitem", orderitemRoute);
 
 module.exports = router;

@@ -11,3 +11,4 @@ module.exports.itemValidation = require("./item.validation");
 module.exports.menuitemValidation = require("./menuitem.validation");
 module.exports.reviewValidation = require("./review.validation");
 module.exports.orderValidation = require("./order.validation");
+module.exports.orderitemValidation = require("./orderitem.validation");

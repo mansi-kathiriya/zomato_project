@@ -1,6 +1,6 @@
 const Joi = require("joi");
 
-// create Order
+/** create Order */
 const createOrder = {
     body: Joi.object().keys({
         user: Joi.string().required(),

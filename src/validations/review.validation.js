@@ -1,6 +1,6 @@
 const Joi = require("joi");
 
-// create Review
+/** create Review */
 const createReview = {
     body: Joi.object().keys({
         rating: Joi.number().integer(),

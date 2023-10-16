@@ -1,6 +1,6 @@
 const Joi = require("joi");
 
-// create Category
+/** create Category */
 const createCategory = {
     body: Joi.object().keys({
         category_name: Joi.string().required().trim(),

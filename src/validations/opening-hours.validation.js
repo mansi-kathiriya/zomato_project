@@ -1,6 +1,6 @@
 const Joi = require("joi");
 
-// create Opening hours
+/** create Opening hours */
 const createOpening_hours = {
     body: Joi.object().keys({
         restaurant: Joi.string(),
