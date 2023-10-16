@@ -11,7 +11,7 @@ const createStat = async (reqBody) => {
 
 /** get Stat List */
 const getStatList = async (filter, options) => {
-    return Stat.find()
+    return Stat.find().populate("country");
 };
 
 /** Get Stat by name */
