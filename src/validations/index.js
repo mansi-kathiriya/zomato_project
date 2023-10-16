@@ -1,5 +1,6 @@
 module.exports.userValidation = require("./user.validation");
 module.exports.ownerValidation = require("./owner.validation");
+module.exports.adminValidation = require("./admin.validation");
 module.exports.countryValidation = require("./country.validation");
 module.exports.statValidation = require("./stat.validation");
 module.exports.cityValidation = require("./city.validation");

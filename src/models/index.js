@@ -1,5 +1,6 @@
 module.exports.User = require("./user.model");
 module.exports.Owner = require("./owner.model");
+module.exports.Admin = require("./admin.model");
 module.exports.Country = require("./country.model");
 module.exports.Stat = require("./stat.model");
 module.exports.City = require("./city.model");

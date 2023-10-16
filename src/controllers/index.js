@@ -1,5 +1,6 @@
 module.exports.userController = require("./user.controller");
 module.exports.ownerController = require("./owner.controller");
+module.exports.adminController = require("./admin.controller");
 module.exports.countryController = require("./country.controller");
 module.exports.statController = require("./stat.controller");
 module.exports.cityController = require("./city.controller");
