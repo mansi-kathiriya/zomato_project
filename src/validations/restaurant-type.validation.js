@@ -1,7 +1,7 @@
 const Joi = require("joi");
 
 /** Create Restaurant type */
-const createrestaurant_type = {
+const createRestaurant_type = {
     body: Joi.object().keys({
         country: Joi.string().required().trim(),
         name: Joi.string().required().trim(),
@@ -9,5 +9,5 @@ const createrestaurant_type = {
 };
 
 module.exports = {
-    createrestaurant_type,
+    createRestaurant_type,
 }

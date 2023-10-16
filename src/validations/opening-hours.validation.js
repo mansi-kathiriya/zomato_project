@@ -1,7 +1,7 @@
 const Joi = require("joi");
 
 // create Opening hours
-const createopening_hours = {
+const createOpening_hours = {
     body: Joi.object().keys({
         restaurant: Joi.string(),
         open_time: Joi.string().trim().required(),
@@ -11,5 +11,5 @@ const createopening_hours = {
 };
 
 module.exports = {
-    createopening_hours,
+    createOpening_hours,
 };

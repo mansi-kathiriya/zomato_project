@@ -1,7 +1,7 @@
 const Joi = require("joi");
 
 /** Create City */
-const createcity = {
+const createCity = {
     body: Joi.object().keys({
         country: Joi.string().required().trim(),
         name: Joi.string().required().trim(),
@@ -9,5 +9,5 @@ const createcity = {
 };
 
 module.exports = {
-    createcity,
+    createCity,
 }

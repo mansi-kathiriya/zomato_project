@@ -6,6 +6,7 @@ const cityRoute = require("./city.route");
 const restaurantRoute = require("./restaurant.route");
 const restaurant_typeRoute = require("./restaurant-type.route");
 const opening_hoursRoute = require("./opening-hours.route");
+const imageRoute = require("./image.route");
 
 const router = express.Router();
 
@@ -16,5 +17,6 @@ router.use("/city", cityRoute);
 router.use("/restaurant", restaurantRoute);
 router.use("/restaurant-type", restaurant_typeRoute);
 router.use("/opening-hours", opening_hoursRoute);
+router.use("/image", imageRoute);
 
 module.exports = router;

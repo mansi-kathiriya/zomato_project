@@ -5,3 +5,4 @@ module.exports.cityService = require("./city.service");
 module.exports.restaurantService = require("./restaurant.service");
 module.exports.restaurant_typeService = require("./restaurant-type.service");
 module.exports.opening_hoursService = require("./opening-hours.service");
+module.exports.imageService = require("./image.service");

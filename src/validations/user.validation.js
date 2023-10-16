@@ -1,7 +1,7 @@
 const Joi = require("joi");
 
 /** Create user */
-const createuser = {
+const createUser = {
     body: Joi.object().keys({
         first_name: Joi.string().required().trim(),
         last_name: Joi.string().required().trim(),
@@ -15,5 +15,5 @@ const createuser = {
 };
 
 module.exports = {
-    createuser,
+    createUser,
 };
