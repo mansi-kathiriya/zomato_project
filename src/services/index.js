@@ -12,3 +12,4 @@ module.exports.menuitemService = require("./menuitem.service");
 module.exports.reviewService = require("./review.service");
 module.exports.orderService = require("./order.service");
 module.exports.orderitemService = require("./orderitem.service");
+module.exports.cartService = require("./cart.service");

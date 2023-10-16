@@ -10,12 +10,12 @@ const createReview = async (req, res) => {
             throw new Error("please add other Review this Review already created.");
         }
 
-        const stat = await reviewService.createReview(reqBody);
+        const review = await reviewService.createReview(reqBody);
 
         res.status(200).json({
             success: true,
             message: "Review create successfully!",
-            data: { stat }
+            data: { review }
         })
     } catch (error) {
         res.status(400).json({ success: false, message: error.message })

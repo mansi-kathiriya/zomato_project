@@ -12,3 +12,4 @@ module.exports.menuitemValidation = require("./menuitem.validation");
 module.exports.reviewValidation = require("./review.validation");
 module.exports.orderValidation = require("./order.validation");
 module.exports.orderitemValidation = require("./orderitem.validation");
+module.exports.cartValidation = require("./cart.validation");

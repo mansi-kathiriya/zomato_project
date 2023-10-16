@@ -12,3 +12,4 @@ module.exports.menuitemController = require("./menuitem.controller");
 module.exports.reviewController = require("./review.controller");
 module.exports.orderController = require("./order.controller");
 module.exports.orderitemController = require("./orderitem.controller");
+module.exports.cartController = require("./cart.cantroller");
