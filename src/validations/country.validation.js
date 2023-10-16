@@ -1,12 +1,12 @@
 const Joi = require("joi");
 
 /** Create Country */
-const createCountry = {
+const createcountry = {
     body: Joi.object().keys({
         name: Joi.string().required().trim(),
     }),
 };
 
 module.exports = {
-    createCountry
+    createcountry
 }

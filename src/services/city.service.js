@@ -11,7 +11,9 @@ const createCity = async (reqBody) => {
 
 /** get City List */
 const getCityList = async (filter, options) => {
-    return City.find().populate("country");
+    return City.find()
+        .populate("country")
+        .populate("stat")
 };
 
 /** Get City by name */
