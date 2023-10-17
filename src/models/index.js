@@ -16,3 +16,4 @@ module.exports.Order = require("./order.model");
 module.exports.Orderitem = require("./orderitem.model");
 module.exports.Cart = require("./cart.model");
 module.exports.Payment = require("./payment.model");
+module.exports.Offer = require("./offer.model");

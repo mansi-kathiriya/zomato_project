@@ -1,5 +1,8 @@
 # modules
 node_modules
 
+# public
+public
+
 # lock file
 package-lock.json

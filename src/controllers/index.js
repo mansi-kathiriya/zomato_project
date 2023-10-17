@@ -16,3 +16,4 @@ module.exports.orderController = require("./order.controller");
 module.exports.orderitemController = require("./orderitem.controller");
 module.exports.cartController = require("./cart.cantroller");
 module.exports.paymentController = require("./payment.controller");
+module.exports.offerController = require("./offer.controller");
