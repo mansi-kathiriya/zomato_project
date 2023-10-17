@@ -1,7 +1,5 @@
 # zomato_project
 
-Certainly, here's a Zomato project description with emojis:
-
 # 🍽️ Node.js Zomato Project 🍕
 
 Welcome to the Node.js Zomato Project - your gateway to the world of delicious dining! 🌮🍔🍣
