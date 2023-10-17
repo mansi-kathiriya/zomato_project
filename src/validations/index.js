@@ -22,4 +22,4 @@ module.exports.notificationValidation = require("./notification.validation");
 module.exports.senderValidation = require("./sender.validation");
 module.exports.recipientValidation = require("./recipient.validation");
 module.exports.driverValidation = require("./driver.validation");
-// module.exports.offerValidation = require("./offer.validation");
+module.exports.deliveryValidation = require("./delivery.validation");

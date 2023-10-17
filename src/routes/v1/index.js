@@ -21,7 +21,7 @@ const notificationRoute = require("./notification.route");
 const senderRoute = require("./sender.route");
 const recipientRoute = require("./recipient.route");
 const driverRoute = require("./driver.route");
-// const offerRoute = require("./offer.route");
+const deliveryRoute = require("./delivery.route");
 
 const router = express.Router();
 
@@ -47,6 +47,6 @@ router.use("/notification", notificationRoute);
 router.use("/sender", senderRoute);
 router.use("/recipient", recipientRoute);
 router.use("/driver", driverRoute);
-// router.use("/offer", offerRoute);
+router.use("/delivery", deliveryRoute);
 
 module.exports = router;

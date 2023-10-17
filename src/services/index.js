@@ -22,4 +22,4 @@ module.exports.notificationService = require("./notification.service");
 module.exports.senderService = require("./sender.service");
 module.exports.recipientService = require("./recipient.service");
 module.exports.driverService = require("./driver.service");
-// module.exports.offerService = require("./offer.service");
+module.exports.deliveryService = require("./delivery.service");
