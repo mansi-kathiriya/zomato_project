@@ -70,10 +70,4 @@ If you'd like to contribute to this mouthwatering project, please follow these g
 6. Push your branch to your fork.
 7. Submit a pull request with a clear description of your changes.
 
-## License 📜
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 Feel free to serve up this README with your personal touch, and bring your Node.js Zomato Project to life! Enjoy exploring the flavors of the world. 🌮🍔🍕🌍
