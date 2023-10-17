@@ -34,11 +34,6 @@ The Node.js Zomato Project is designed to enhance your dining experience by prov
 
 9. 👨‍💻 **Community and Collaboration**: The project encourages contributions and collaboration from the open-source community. If you have ideas for improvement, you can contribute to the project.
 
-## Prerequisites 🛠️
-
-- [Node.js](https://nodejs.org/) (version X.X or higher)
-- [Zomato API Key](https://developers.zomato.com/api) - Sign up for your Zomato API key and unlock the flavors of the world. 🔑🌎
-
 ## Installation 🚀
 
 1. Clone the repository:
