@@ -20,7 +20,7 @@ const offer_itemRoute = require("./offer-item.route");
 const notificationRoute = require("./notification.route");
 const senderRoute = require("./sender.route");
 const recipientRoute = require("./recipient.route");
-// const offerRoute = require("./offer.route");
+const driverRoute = require("./driver.route");
 // const offerRoute = require("./offer.route");
 
 const router = express.Router();
@@ -46,7 +46,7 @@ router.use("/offer-item", offer_itemRoute);
 router.use("/notification", notificationRoute);
 router.use("/sender", senderRoute);
 router.use("/recipient", recipientRoute);
-// router.use("/offer", offerRoute);
+router.use("/driver", driverRoute);
 // router.use("/offer", offerRoute);
 
 module.exports = router;

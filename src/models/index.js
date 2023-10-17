@@ -21,5 +21,5 @@ module.exports.Offer_item = require("./offer-item.model");
 module.exports.Notification = require("./notification.model");
 module.exports.Sender = require("./sender.model");
 module.exports.Recipient = require("./recipient.model");
-// module.exports.Offer = require("./offer.model");
+module.exports.Driver = require("./driver.model");
 // module.exports.Offer = require("./offer.model");

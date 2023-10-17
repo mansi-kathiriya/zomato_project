@@ -21,5 +21,5 @@ module.exports.offer_itemValidation = require("./offer-item.validation");
 module.exports.notificationValidation = require("./notification.validation");
 module.exports.senderValidation = require("./sender.validation");
 module.exports.recipientValidation = require("./recipient.validation");
-// module.exports.offerValidation = require("./offer.validation");
+module.exports.driverValidation = require("./driver.validation");
 // module.exports.offerValidation = require("./offer.validation");

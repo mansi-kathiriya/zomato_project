@@ -21,5 +21,5 @@ module.exports.offer_itemController = require("./offer-item.controller");
 module.exports.notificationController = require("./notification.controller");
 module.exports.senderController = require("./sender.controller");
 module.exports.recipientController = require("./recipient.controller");
-// module.exports.offerController = require("./offer.controller");
+module.exports.driverController = require("./driver.controller");
 // module.exports.offerController = require("./offer.controller");

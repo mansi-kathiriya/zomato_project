@@ -21,6 +21,5 @@ module.exports.offer_itemService = require("./offer-item.service");
 module.exports.notificationService = require("./notification.service");
 module.exports.senderService = require("./sender.service");
 module.exports.recipientService = require("./recipient.service");
-// module.exports.offerService = require("./offer.service");
-// module.exports.offerService = require("./offer.service");
+module.exports.driverService = require("./driver.service");
 // module.exports.offerService = require("./offer.service");
