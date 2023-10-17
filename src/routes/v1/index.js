@@ -17,11 +17,11 @@ const cartRoute = require("./cart.route");
 const paymentRoute = require("./payment.route");
 const offerRoute = require("./offer.route");
 const offer_itemRoute = require("./offer-item.route");
-const offerRoute = require("./offer.route");
-const offerRoute = require("./offer.route");
-const offerRoute = require("./offer.route");
-const offerRoute = require("./offer.route");
-const offerRoute = require("./offer.route");
+const notificationRoute = require("./notification.route");
+// const offerRoute = require("./offer.route");
+// const offerRoute = require("./offer.route");
+// const offerRoute = require("./offer.route");
+// const offerRoute = require("./offer.route");
 
 const router = express.Router();
 
@@ -43,10 +43,10 @@ router.use("/cart", cartRoute);
 router.use("/payment", paymentRoute);
 router.use("/offer", offerRoute);
 router.use("/offer-item", offer_itemRoute);
-router.use("/offer", offerRoute);
-router.use("/offer", offerRoute);
-router.use("/offer", offerRoute);
-router.use("/offer", offerRoute);
-router.use("/offer", offerRoute);
+router.use("/notification", notificationRoute);
+// router.use("/offer", offerRoute);
+// router.use("/offer", offerRoute);
+// router.use("/offer", offerRoute);
+// router.use("/offer", offerRoute);
 
 module.exports = router;

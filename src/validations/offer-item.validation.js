@@ -1,6 +1,6 @@
 const Joi = require("joi");
 
-// create admin
+/** create offer item */
 const createOffer_item = {
     body: Joi.object().keys({
         offer: Joi.string().required(),
