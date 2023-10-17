@@ -25,7 +25,7 @@ Discover restaurants, check out ratings and reviews, and explore menus, all at y
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/nodejs-zomato-project.git
+   git clone https://github.com/mansi-kathiriya/zomato_project.git
    ```
 
 2. Install the project dependencies:
