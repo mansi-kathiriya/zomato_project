@@ -2,7 +2,7 @@ const bcrypt = require("bcrypt");
 const moment = require("moment");
 const jwt = require("jsonwebtoken");
 const jwtSecrectKey = "cdccsvavsvfssbtybnjnu";
-const { userService } = require("../services");
+const { userService, emailService } = require("../services");
 const { auth } = require("../middlewares/auth");
 
 /** Register user */
@@ -174,7 +174,29 @@ const deleteUser = async (req, res) => {
   } catch (error) {
     res.status(400).json({ success: false, message: error.message })
   }
-}
+};
+
+/** Send mail to requsted email*/
+const sendMail = async (req, res) => {
+  try {
+      const reqBody = req.body;
+      const sendEmail = await emailService.sendMail(
+          reqBody.email,
+          reqBody.subject,
+          reqBody.text
+      );
+      if(!sendEmail){
+          throw new Error("something went wrong, please try again or later");
+      }
+
+      res.status(200).json({
+          success: true,
+          message: "Email send successfully!",
+      });
+  } catch (error) {
+      res.status(400).json({ success: false, message: error.message });
+  }
+};
 
 module.exports = {
   register,
@@ -184,5 +206,6 @@ module.exports = {
   getUserList,
   getUserDetails,
   updateDetails,
-  deleteUser
+  deleteUser,
+  sendMail,
 };
