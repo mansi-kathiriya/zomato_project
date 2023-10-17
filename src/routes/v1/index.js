@@ -19,7 +19,7 @@ const offerRoute = require("./offer.route");
 const offer_itemRoute = require("./offer-item.route");
 const notificationRoute = require("./notification.route");
 const senderRoute = require("./sender.route");
-// const offerRoute = require("./offer.route");
+const recipientRoute = require("./recipient.route");
 // const offerRoute = require("./offer.route");
 // const offerRoute = require("./offer.route");
 
@@ -45,7 +45,7 @@ router.use("/offer", offerRoute);
 router.use("/offer-item", offer_itemRoute);
 router.use("/notification", notificationRoute);
 router.use("/sender", senderRoute);
-// router.use("/offer", offerRoute);
+router.use("/recipient", recipientRoute);
 // router.use("/offer", offerRoute);
 // router.use("/offer", offerRoute);
 
