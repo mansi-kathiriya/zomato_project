@@ -33,7 +33,7 @@ Discover restaurants, check out ratings and reviews, and explore menus, all at y
    cd nodejs-zomato-project
    npm install
    ```
-
+<!-- 
 ## Configuration ⚙️
 
 1. Create a `.env` file in the project root and add your Zomato API key:
@@ -42,7 +42,7 @@ Discover restaurants, check out ratings and reviews, and explore menus, all at y
    ZOMATO_API_KEY=your_api_key_here
    ```
 
-2. Customize other configuration settings in this file to suit your taste. 🍽️
+2. Customize other configuration settings in this file to suit your taste. 🍽️ -->
 
 ## Usage 🍴
 
